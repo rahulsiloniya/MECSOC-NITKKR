@@ -12,4 +12,4 @@ PS: The author is a fan of clean code, if you spot garbage lines please, create 
 your contribution.
 
 ### Screenshot from last update
-<img src="/home/rahulsiloniya/Documents/webproject/MECSOC-NITKKR/mechsoc/src/assets/11_august_2023_update.png" alt="screenshot" />
+<img src="src/assets/11_august_2023_update.png" alt="screenshot" />
