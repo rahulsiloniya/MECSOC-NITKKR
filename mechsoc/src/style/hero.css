@@ -1,12 +1,14 @@
 .hero {
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(
-        rgba(0,0,0,0.6),
-        rgba(0,0,0,0.6)),
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)),
         url(../assets/hero_img.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'JetBrains Mono';
 }
 
@@ -16,6 +18,10 @@ nav {
     align-items: center;
     padding-top: 2%;
     /* padding-left: 10%; */
+}
+
+nav ul{
+    padding-left: 0px;
 }
 
 nav ul li {
@@ -48,7 +54,7 @@ nav ul li a:hover {
     color: white;
     text-align: center;
     /* padding-top: 1vw; */
-    font-size: 11rem;
+    font-size: 10rem;
     /* font-family: 'JetBrains Mono'; */
     position:relative;
     color: #91c1e6;
@@ -62,4 +68,35 @@ nav ul li a:hover {
     padding-right: 8%;
     /* padding-bottom: 3%; */
     position: relative;
+}
+
+@media only screen and (max-width: 840px){
+    .name{
+        font-size: 5rem;
+    }
+    .description{
+        font-size: 2rem;
+    }
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+    nav ul li {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .name{
+        font-size: 3rem;
+    }
+    .description{
+        font-size: 1rem;
+    }
+    nav ul li a {
+        font-size: 0.8rem;
+    }
+    nav ul li {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
